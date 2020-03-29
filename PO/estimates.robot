@@ -1,0 +1,19 @@
+*** Variables ***
+${EST_CAT}	            id:category
+${EST_COAT}	            id:coating
+${EST_FINSIZE_H}	    id:finishsize_height
+${EST_FINSIZE_W}	    id:finishsize_width
+${EST_FLATSIZE_H}	    id:flatsize_height
+${EST_FLATSIZE_W}	    id:flatsize_width
+${EST_I_UNDERSTAND}		xpath://input[@name='gogogo']
+${EST_NAME}	            id:estimate_name
+${EST_OPT}	            id:bindery
+${EST_PRINT_TYPE}	    id:print_type
+${EST_QTY}	            id:run_size_1
+${EST_REM}	            id:remember_check
+${EST_REQ_EMAIL}	    id:requestor_email
+${EST_REQ_NAME}	        id:requestor_name
+${EST_REQ_PHONE}	    id:requestor_phone
+${EST_REQ}	            xpath://p[@class='request']//a//img
+${EST_SUB}	            id:paper_type
+${EST_SUBMIT}	        xpath://input[@type='image']

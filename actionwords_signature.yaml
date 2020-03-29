@@ -1,0 +1,523 @@
+---
+- name: Select Primary Attributes
+  uid: d42798e5-45c2-48a7-aec4-fd0a914cf6d0
+  parameters:
+  - name: run_size
+  - name: color
+  - name: turn_around
+  body_hash: a11d214cb50fd12f932b8576fed86691
+- name: Set Print Set Details - Default Shipping
+  uid: a587c9c6-4d97-4398-9b21-43fcb6c23830
+  parameters:
+  - name: shipping_type
+  - name: print_location
+  body_hash: '09b10724b32851a0dd4531599660dd30'
+- name: Checkout with Pay By Check
+  uid: 9cf76176-e8d4-46ab-8273-4dfb8d17253b
+  parameters: []
+  body_hash: 34e8648cfd718a609cf8f29b2358341c
+- name: Select Product To Build
+  uid: 5fc7985d-f5fe-4393-9f2f-2a480668045f
+  parameters:
+  - name: product_category
+  - name: link_text
+  body_hash: 8564e33ed02364f1931f12f85fd542a5
+- name: Select Base Job Options - Bundling, Mailing, Shrink
+  uid: 50728831-7292-4ef7-8e3d-df334a77c724
+  parameters:
+  - name: bundling
+  - name: mailing
+  - name: shrink_wrapping
+  body_hash: 7a46bba997724ff67c1da8d62a2d7228
+- name: Provide How Many Sets
+  uid: ffe0afbd-5274-4eb9-b25a-1edb4308e21d
+  parameters:
+  - name: qty
+  body_hash: e91f92ca065fc7de9af9c894488c7c1c
+- name: Select Base Job Options - Rounded Corners
+  uid: 8130fe03-6c33-4f87-946f-7efb13820c1c
+  parameters:
+  - name: radius_of_corners
+  - name: round_corners
+  body_hash: 2e4a49f26d5234b36c0799d127808a12
+- name: Set Print Set Details - Dropship
+  uid: 5b8a4bee-3260-45ea-a080-212a08a8bb56
+  parameters:
+  - name: address
+  - name: shipping_type
+  - name: print_location
+  body_hash: 8253fa0bd4e2b0f9d2e6b400ee3cd738
+- name: Select Base Job Options - Die Cut Options
+  uid: 19a5b50c-7c4e-4e91-9c10-1b202dae58c7
+  parameters:
+  - name: die
+  body_hash: 073aa097191caa45f24cf78c2a046bfd
+- name: Select Base Job Options - Foil Color
+  uid: d5bb374d-c7a5-424f-9528-f80db8b77eae
+  parameters:
+  - name: foil
+  body_hash: 532cb2e65e1d1c593e48e6d986d1dad9
+- name: Set Print Set Details - Default Shipping, Group Shipping
+  uid: 90dcc57c-7b6b-44f2-98b6-0d0d591f60f3
+  parameters:
+  - name: shipping_type
+  - name: print_location
+  body_hash: 3d49fbba337d745639114a278447ff60
+- name: Click On Estimates
+  uid: 7eabb329-65cb-4835-84a5-a1e50940ad9b
+  parameters: []
+  body_hash: a21ac49b03038da084786d28efc28fd7
+- name: Click on Request New Estimate
+  uid: fa38b618-dca5-4349-8c0e-3b28f2a6235c
+  parameters: []
+  body_hash: c7eeba8148873097418f68e3b8d39678
+- name: Fill In Estimate
+  uid: 2189ba40-9d02-47a5-a708-204bf22cbdb5
+  parameters:
+  - name: estimate_name
+  - name: name
+  - name: email
+  - name: phone
+  - name: category
+  - name: sub_paper
+  - name: print_type
+  - name: coating
+  - name: options
+  - name: contour
+  - name: drill_hole
+  - name: hardware
+  - name: rounded_corner
+  body_hash: 5fa87a48f4892fcd129899694f746f02
+- name: Click Clear Cart
+  uid: ad5b47ee-c786-44cf-9abf-5e73928720ff
+  parameters: []
+  body_hash: 44c621ee8840d53f3ec755e447b4962b
+- name: Validate Shopping Cart
+  uid: c65954e7-9ca3-4aec-a86a-1a29df88d3a0
+  parameters:
+  - name: shipping_method
+  - name: production_facility
+  - name: rewards_point
+  - name: total_subtotal
+  - name: quantity_discount
+  - name: order_discount
+  body_hash: b1d34d090eb945becc5a4024c6446830
+- name: Verify Purolator Shipping Options
+  uid: 1747bf81-d209-4337-997c-d8461d474df4
+  parameters: []
+  body_hash: 66ef5478b24d25a232969a53a1ce5340
+- name: Set Print Set Details - Pick up
+  uid: 3fcd9fd4-a935-4285-a8a1-5012e894ee04
+  parameters:
+  - name: print_location
+  body_hash: 671352765aad36d51d5c78141f2ee05b
+- name: Set Print Set Details - Free Delivery
+  uid: 99965164-c6de-4e9f-93d7-c204abebbe7c
+  parameters:
+  - name: print_location
+  body_hash: b7361821d26d9520d07b44022f598ce0
+- name: Select Base Job Options - Bundling, Mailing
+  uid: e035a0a0-2e7a-4731-8512-80b26901dcf9
+  parameters:
+  - name: bundling
+  - name: mailing
+  body_hash: cf74c7dcd22f58f8e48d3e0a1825dd4d
+- name: Set Print Set Details - Mailing
+  uid: adbdd8be-e238-4ec0-abe5-cfc9dd87c24d
+  parameters:
+  - name: print_location
+  body_hash: 748508eb4a969f7f331c7281bd8b18ab
+- name: Click on Rewards
+  uid: '025896f5-fe90-416e-8187-c552c2b5b183'
+  parameters: []
+  body_hash: d4c8dc8d1430e001df8bdcce4539ca59
+- name: Redeem A $1.00 Coupon
+  uid: dbe5dd2c-32a8-4109-98f7-4d0ac3dfe46e
+  parameters: []
+  body_hash: d32bdc4b1d690dad82871606f39f4a0e
+- name: Click On Orders
+  uid: 8b2d47de-031e-4ed9-b0c1-925de68106c8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Click On UPLOAD ARTWORK
+  uid: 3e67ab1c-58f8-4c96-9e36-c4ec14333134
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Cancel Order
+  uid: 8d543d82-e421-4ebe-b785-6427b8f38bed
+  parameters: []
+  body_hash: 766230c0ac8db7a445d66bd40f4a6b26
+- name: Upload Files Through Classic Uploader
+  uid: faf22791-5050-4fdd-b846-7f2fcbb011f7
+  parameters: []
+  body_hash: 4e081bf7f3036c378caf8c76c987725f
+- name: Log Into Trade
+  uid: adde7426-10c1-4dc8-8076-04809f5335bf
+  parameters:
+  - name: website
+  - name: username
+  - name: password
+  - name: expected
+  body_hash: 30ea7e13ae260c8db92d8807dc4e6f9e
+- name: Empty Shopping Cart
+  uid: 94292594-e34a-4bf3-9ac1-e81cc52118a6
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Click On "link_text"
+  uid: 3510416e-db43-4ac0-8725-4f833275bec7
+  parameters:
+  - name: link_text
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Click On Buy A Batch
+  uid: e8164de6-4638-455b-b89e-59bfbe1a93af
+  parameters: []
+  body_hash: 17eaf2fe7c6eb4903e8ffa5fb1f2b262
+- name: Validate Buy A Batch - Order
+  uid: 95e965fc-46ad-4f41-bd50-3702fa5bd5b9
+  parameters:
+  - name: product_code
+  body_hash: 8c3366478285e3aafcce4cbc7d21125c
+- name: Validate Buy A Batch - Product Detail
+  uid: 0c6eeabc-176b-4f71-8c3c-153ce6fddac5
+  parameters:
+  - name: run_size
+  - name: color
+  - name: tat
+  body_hash: cc2fe9cbf6305d913bdd2abe852b0567
+- name: Validate Flute Direction
+  uid: cd208701-0d60-4927-b9ad-4bb240f8088b
+  parameters:
+  - name: direction
+  body_hash: 4ea0fc1e64d9c1da224f6c5f4e57025f
+- name: Continue To Buy A Batch Product Builder
+  uid: fa828a51-fce6-4fda-a632-f3f7587945ec
+  parameters: []
+  body_hash: f04157962bc63deb953a04b392200d37
+- name: Validate Number Of Signs
+  uid: f689555f-ff44-4b5f-83a2-94454cadc71d
+  parameters:
+  - name: amount
+  body_hash: 5f1e43f6c91aaec09cb5ef0841cc494a
+- name: Validate Buy A Batch - Product Size
+  uid: b7428e04-72fa-45ef-a61d-8b53b471965a
+  parameters:
+  - name: expected_size
+  body_hash: d602b9e4cc4d2739c23c926cfbc10005
+- name: Validate Buy A Batch - Sheet Count
+  uid: 21fdfdb5-4a48-4163-843a-02c392e8ef40
+  parameters:
+  - name: expected
+  body_hash: 745441e56850cb5987e086142dc940a5
+- name: Validate Buy A Batch - Total Cost
+  uid: 13f998af-36a3-4b17-8915-5500b981d2d8
+  parameters:
+  - name: cost
+  body_hash: 10f0cf33a48b7cc3f3e6783bb35710f8
+- name: Select Buy A Batch Double Sided
+  uid: 6571d9e5-0f7e-4798-a495-cc855cd77465
+  parameters: []
+  body_hash: 895ee9e4621861042399062367d528e6
+- name: Select Buy A Batch Product Size
+  uid: 8924d3cb-dfa5-411e-aacd-a8169fab5845
+  parameters:
+  - name: size
+  body_hash: d67493fa7548e1ab36e028b6df4306be
+- name: Set Buy A Batch Quantity
+  uid: 2e33a3ef-fd12-4dac-8f61-a647c307205f
+  parameters:
+  - name: quantity
+  body_hash: ee564b97294b8b71d0613de4b9a13552
+- name: Increase Quantity
+  uid: 0aa4b865-bd1b-4c59-8772-7992fc21bcca
+  parameters: []
+  body_hash: db724e8a73feb4dda4301082429bee0b
+- name: Decrease Quantity
+  uid: ff56a67e-2b07-49a1-9d38-53493c3c6822
+  parameters: []
+  body_hash: 43d95b10f5d59ee7c8eecf78598d00cc
+- name: Add Image Set In Buy A Batch
+  uid: 856c4495-7b5d-42a5-8756-5aa0832a26a3
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Validate Buy A Batch - Price
+  uid: 9c857431-3599-4e86-aa17-eecc34cab80f
+  parameters:
+  - name: expected_price
+  body_hash: 82e6dd358ae7ed2b51efb28baa1923f6
+- name: Continue To Order Summary In Buy A Batch
+  uid: 8f6b62bb-a1f1-4c48-bea9-0ef94ee190ad
+  parameters: []
+  body_hash: 41bcfa10453dd0c6576aa0bdadbcd54b
+- name: Validate Buy A Batch - Quantity Description
+  uid: 515fd50a-f071-449d-95e6-af12065db1ce
+  parameters:
+  - name: expected_text
+  body_hash: 9bb5b9a8dc91df597f4b88a5cc2ce784
+- name: Upload Front Image In Buy A Batch
+  uid: ae3fe390-73d6-47dc-9580-dffa44e08d4f
+  parameters:
+  - name: file_name
+  body_hash: 26324a42e768595d2e752f4051202ed1
+- name: Upload Back Image In Buy A Batch
+  uid: 7a732cac-1ff9-411e-81eb-e4190d88b876
+  parameters:
+  - name: file_name
+  body_hash: 327f401c1e502b1cbc3a475b285c7faa
+- name: Center Front File
+  uid: 01e795e4-77d7-487a-96db-8a4c2a0bc689
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Center Back File
+  uid: 6331ec38-23ac-44c1-ad95-65f14736e3ee
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Fit Front File
+  uid: 0b8a1e1a-54ea-4adb-be35-55d6c5de4b36
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Fit Back File
+  uid: fd988555-1f2b-4d80-a46b-72e73617e733
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Select Base Job Options - Blank Envelopes
+  uid: 2574a2c7-3d38-4748-84a6-b727fe9c9657
+  parameters:
+  - name: envelopes
+  body_hash: a1f8c7583e9473b656605481f4099853
+- name: Click Add To Cart
+  uid: d0d95cbe-78d9-44bd-b1d9-ea0650a81a0c
+  parameters: []
+  body_hash: d57e158f3f53af5091aea6a716e77643
+- name: Validate Product Builder - Reward Points and Subtotal
+  uid: 180cccb2-9f2e-4f80-9112-d7abb38017d1
+  parameters:
+  - name: reward_points
+  - name: subtotal
+  body_hash: 67eda196cca77c61c18f615109ea293f
+- name: Login
+  uid: 518d4863-9b88-4357-9e6e-a6b5b54bb7fa
+  parameters:
+  - name: username
+  - name: password
+  - name: expected
+  body_hash: 2869deeb944e90c283eb80c8f38aa404
+- name: Select Base Job Options - Clear Case, Edge Color
+  uid: 13d5cdd5-67e6-4ed8-af28-7370d0dad0f5
+  parameters:
+  - name: clear_case
+  - name: edge_color
+  body_hash: 10869ea8490205e21c53dfd8a414a595
+- name: Accept Disclamer
+  uid: e6d48143-a266-4ed7-b197-f51156c75cef
+  parameters: []
+  body_hash: db3e95fdfa4ec13a7003231f63f602b7
+- name: Select Base Job Options - Raised Spot UV
+  uid: 22842121-63e0-4f25-bc0c-2a579e7d1393
+  parameters:
+  - name: height
+  - name: side
+  body_hash: 0e156e039c35441601eecb2c2f468a9b
+- name: Select Base Job Options - Bundling
+  uid: 6d641b31-3d99-4d75-9c0b-6c18e011ea6a
+  parameters:
+  - name: bundling_option
+  body_hash: a25615ddf8abc4c938fedef64560c790
+- name: Select Base Job Options - T-Shirt
+  uid: 59531ac3-3e54-4d44-a64a-f5bf28db2f15
+  parameters:
+  - name: size
+  body_hash: 8d249a8342938e7d83bf967d7e8738aa
+- name: Select Base Job Options - Binding Edge
+  uid: 581a0fb0-c57e-4f26-b281-762ea9951db3
+  parameters:
+  - name: edge
+  body_hash: 07fea8b0849db93325691ec58212fc18
+- name: Select Base Job Options - Drill Hole
+  uid: 3cfc1a52-22a3-427c-83ea-12b287962d7e
+  parameters:
+  - name: drill_hole
+  body_hash: 49426f55d7d644ff1cac1f2fb5328d74
+- name: Select Base Job Options - Easel
+  uid: 8c1b97b0-6a8d-4116-9894-97c8b116e6e1
+  parameters: []
+  body_hash: c35265301118c68fc8e96911a7e545a5
+- name: Select Base Job Options - Window
+  uid: d39d9916-8c5c-47b2-9131-45f2d4b6fceb
+  parameters:
+  - name: window
+  body_hash: 8142cf0ad4af53b77c8447036d999c15
+- name: Select Base Job Options - Numbering, Perforation
+  uid: 27ac1cdc-d95f-4f9d-a5ea-caa16b29f510
+  parameters:
+  - name: numbering
+  - name: perforation
+  body_hash: 4cd2324983013c5e9203f75c9402f835
+- name: Select Base Job Options - Folding
+  uid: c6007da6-25cd-4a40-b5e5-48296b8e5944
+  parameters:
+  - name: fold
+  body_hash: 0e04df26cf82340cce91a00379495915
+- name: Select Base Job Options - Blank Envelopes, Gift Card Slits, Scoring
+  uid: 146c68a5-d151-4919-b423-7cc126a3b2d9
+  parameters:
+  - name: envelope
+  - name: slits
+  - name: scoring
+  body_hash: 1b90b32ef88f453e0f980b01a969b643
+- name: Select Base Job Options - Numbering
+  uid: f0a59b8f-19bc-44ec-b9e6-93089ff2337d
+  parameters:
+  - name: numbering
+  body_hash: 0b7c123e05707fb9c84c44be001897e6
+- name: Select Base Job Options - Radius of Corners
+  uid: c1613044-b413-4bd0-ae7b-d9e1510ca6cd
+  parameters:
+  - name: radius
+  body_hash: ca7ca46f26a9d1bf25e16ed6b2904b2b
+- name: Select Base Job Options - Pockets, BC Slits
+  uid: a847c3dc-a53f-42e8-baf1-5462a80ef886
+  parameters:
+  - name: pocket
+  - name: slit
+  body_hash: a2887a9ef80ee36fea27dc06a94d9c8a
+- name: Select Base Job Options - Lamination, Shape, Unwind
+  uid: '01784b8b-c9ca-4ba7-898e-44db95fb24f2'
+  parameters:
+  - name: lamination
+  - name: shape
+  - name: unwind
+  body_hash: 45eac542ba4d57651528993e59431abb
+- name: Select Base Job Options - Scoring
+  uid: 443c1304-2c5a-48e4-adbf-b2cf23e57d37
+  parameters:
+  - name: scoring
+  body_hash: 6399340f79614f380af040df5c775550
+- name: Select Base job Options - Shape
+  uid: 6a1d1e64-8a1b-4e84-ba36-e028350bd70a
+  parameters:
+  - name: shape
+  body_hash: 4ab8d7c4e88f56666889f6cafc734849
+- name: Select Base Job Options - Die Cut, Perforation
+  uid: 9ad64aff-c9e7-47d6-8d99-76413102aee6
+  parameters:
+  - name: die
+  - name: perf
+  body_hash: 4df4ae2e97e7dcb60335028b19010944
+- name: Upload Bad Image In Buy A Batch
+  uid: e4af6030-d065-4f85-a9c0-0e341209ee1d
+  parameters:
+  - name: file_name
+  body_hash: 26324a42e768595d2e752f4051202ed1
+- name: Apply Coupon Code
+  uid: a9843523-9479-4238-b6b5-8e9b1b8b3f87
+  parameters: []
+  body_hash: babf5adb2d3a055c7ba2f4d95e85cdda
+- name: Select Additional Options
+  uid: af3123b9-5326-4465-9957-4b5000ffebc1
+  parameters: []
+  body_hash: dfc2c83a4d8fe47a489ee7ddb1fe278a
+- name: Validate Additional Options
+  uid: deedc93d-a042-4385-9496-39c13cee9239
+  parameters:
+  - name: string
+  body_hash: b34927dc12f93a3f3e5c16fee2a50fd6
+- name: Switch To Window "window_name" That Contains "expected"
+  uid: 99dafd69-cd62-48b2-945f-f441b3a26b37
+  parameters:
+  - name: window_name
+  - name: expected
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Fill Up Registration Form
+  uid: 42ae34bf-4ea5-4d85-9b47-5102568c9ced
+  parameters: []
+  body_hash: 4036136e0f908318d33682708e1c3013
+- name: Validate Product Builder Subtotal
+  uid: 32c4e715-b284-4188-894d-81832b3b410a
+  parameters:
+  - name: sub
+  body_hash: c2a5ebe68354102e922fc2faddfb0278
+- name: Click on Next step
+  uid: f89dad74-4569-41af-b86d-87b670aa3e65
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: Select Quantity and Turn Around Time
+  uid: 4020dd25-d1ce-4446-ab63-f8943edf76f5
+  parameters:
+  - name: Quantity
+  - name: Turn_Around_Time
+  body_hash: '02381f0727cec49869ca696c7a1cf81a'
+- name: Verify Shipping Method
+  uid: d5ff1775-ec05-4e3c-8a85-e0e1119275df
+  parameters:
+  - name: element
+  - name: method
+  body_hash: 24f91c30b236f663d78b52559990c45f
+- name: Verify Production Facility
+  uid: 0f8ad127-3eba-40d2-acb3-c2745576aa33
+  parameters:
+  - name: element
+  - name: facility
+  body_hash: 8cb7997d361cb9d83c4ea5631365cfe4
+- name: Verify Subtotal and Rewards
+  uid: f942ad00-9e20-4575-9fe3-a11afab87df1
+  parameters:
+  - name: element_points
+  - name: element_subtotal
+  - name: points
+  - name: subtotal
+  body_hash: 15bc4f38bed15f34d4e14644b8ecc15e
+- name: Verify Cart Discount
+  uid: 7ee3cb8f-9414-4eec-a0bd-2489164e131b
+  parameters:
+  - name: element_qty
+  - name: element_discount
+  - name: quantity
+  - name: order
+  body_hash: '09b1327997a8bacd0f7858567810a786'
+- name: Verify Shipping and Processing Total
+  uid: 86989e1f-a56a-4203-b417-9275cbbc19ae
+  parameters:
+  - name: element
+  - name: method
+  body_hash: d87e702743f535b7c1b1301be118e439
+- name: Verify Cart Total is not Zero
+  uid: 072b0409-e6d9-48b9-ad28-9f2a62d9f691
+  parameters:
+  - name: element
+  body_hash: f6321411df9f1cea5e3dd7f9bf5c5b0f
+- name: Validate Shopping Cart Elements
+  uid: a440dbec-7bad-41cd-aa32-38cb6c0ad8c1
+  parameters:
+  - name: element_cont
+  - name: element_clear
+  - name: element_coupon
+  - name: element_sh_cart
+  - name: element_prom_code
+  - name: element_checkout
+  body_hash: 662cc0af938b3f64d3600080a0eb0fbe
+- name: Input Trade Account Information
+  uid: 5625feaf-8818-4675-8b6e-15ade4d34efa
+  parameters:
+  - name: company
+  - name: first_name
+  - name: last_name
+  body_hash: 8268bc1d9bd6bbdb3b1dc4b718183661
+- name: Input Default Shipping Information
+  uid: fb1dc6b6-a2be-42fc-aafa-a6165104bc9c
+  parameters:
+  - name: company
+  - name: first_name
+  - name: last_name
+  body_hash: 3261ed41b9f0a3a7072cbee67c05c209
+- name: Check for California Resellers Warning
+  uid: d1c6070d-b3aa-4f23-a544-308cd85d2880
+  parameters: []
+  body_hash: b365a8a8eac366e90c3950a92a0c1832
+- name: Check if Local Delivery and Pickup is available
+  uid: ebb78b1c-dc2f-4c0c-b6d0-ccf20e5509d0
+  parameters: []
+  body_hash: e506f093a201b0f8eb0958279a0db15e
+- name: Input Default Billing Information
+  uid: 1563e421-ce00-4d0c-b45e-e786f651e53f
+  parameters: []
+  body_hash: '029ad85eb1656032d7b6bfc86d078ab0'
